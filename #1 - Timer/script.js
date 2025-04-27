@@ -21,7 +21,7 @@ function refresh (time) {
     let centoseconds = String(ttt);
 
     if (Number(hours)>0){
-        aaa = hours + ":" + minutes + ":" + (Number(seconds)<10) ? "0" : none + seconds + "." + centoseconds;
+        aaa = hours + ":" + minutes + ":" + seconds + "." + centoseconds;
     } else {
         aaa = minutes + ":" + seconds + "." + centoseconds;
     }
